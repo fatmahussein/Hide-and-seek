@@ -177,7 +177,7 @@ for (let i = 0; i < projects.length; i += 1) {
   const btn1 = document.createElement('li');
   btn1.classList.add('button1');
   btn1.setAttribute('id', 'html');
-  btn1.textContent = projects[i].technologies[0];
+  // btn1.textContent = projects[i].technologies[0];
   // btn1.innerHTML = `
   //   <li ><a href="#">${projects[i].technologies[0]}</a></li>`;
   ul.appendChild(btn1);
